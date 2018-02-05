@@ -19,14 +19,15 @@ $(document).ready(function() {
     $("span").show(2000);
   })
 // 4
-for ( var i = 0; i < 5; i++ ) {
-  $( "<div>" ).appendTo( document.body );
-}
-$( "div" ).click(function() {
-  $( this ).hide( 2000, function() {
-    $( this ).remove();
+  for ( var i = 0; i < 5; i++ ) {
+    $( "<div>" ).appendTo( document.body );
+  }
+  $( "div" ).click(function() {
+    $( this ).hide( 2000, function() {
+      $( this ).remove();
+    });
   });
-});
 
+  $(".text").fadeIn(4000);
 
 });
