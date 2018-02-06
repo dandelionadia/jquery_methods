@@ -27,7 +27,13 @@ $(document).ready(function() {
       $( this ).remove();
     });
   });
-
+// 5
   $(".text").fadeIn(4000);
 
+  // 6
+
+  $("a").each(function() {
+    var links = $(this).attr("href");
+    $("#list").append("<li>" + links + "<li>");
+  });
 });
