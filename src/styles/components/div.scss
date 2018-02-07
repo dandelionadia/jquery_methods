@@ -5,3 +5,40 @@
 //   margin: 2px;
 //   float: left;
 // }
+
+#div1 {
+  background-color: rgb(184, 25, 25);
+}
+
+#div2 {
+  background-color: rgb(245, 232, 47);
+}
+
+#div3 {
+  background-color: rgb(66, 163, 62);
+}
+
+#div4 {
+  background-color: rgb(109, 102, 207);
+}
+
+#div5 {
+  background-color: rgb(68, 35, 35);
+}
+
+.someDiv {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+#modalDiv {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  background-color: blanchedalmond;
+  margin: auto;
+  left: 0;
+  right: 0;
+
+}

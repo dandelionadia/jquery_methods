@@ -1,6 +1,7 @@
 $(document).ready(function() {
 //1
-  $("#click").click(function() {
+  /*
+$("#click").click(function() {
     $("#book").hide("slow", function() {
       alert("click");
     })
@@ -36,4 +37,16 @@ $(document).ready(function() {
     var links = $(this).attr("href");
     $("#list").append("<li>" + links + "<li>");
   });
+  */
+  //7
+  var animaTime = 2000;
+  $(".someDiv").on("click", function(e) {
+    var modal = $("#modalDiv");
+    modal.css("background-color", $(e.target).css("background-color"));
+    modal.show(animaTime);
+  })
+  $("#modalDiv").on("click", function() {
+    $(this).hide(animaTime);
+  })
+
 });
